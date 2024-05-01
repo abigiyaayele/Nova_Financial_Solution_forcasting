@@ -26,5 +26,16 @@ Print top publishers and their article counts.
 Print unique publisher domains.
 
  #task_2(stprice.ipynb)
+
  #Steps
- 
+
+  1. Load and prepare the data.
+
+  2. Convert the 'date' column to datetime objects to facilitate date manipulation.
+
+  3. Determine date ranges and fetch stock data.
+
+  4. Calculate the earliest and latest date for each stock to define the period for which to fetch stock prices.
+
+  5. download stock data for each stock based on the calculated date ranges.
+
